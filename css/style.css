@@ -75,6 +75,12 @@
     margin-top: 140px;
 }
 
+a{
+    
+text-decoration: none;   
+    
+}
+
 #submit {
     font-family: 'Century Gothic';
     color: white;
@@ -87,11 +93,14 @@
     border: 0;
     margin: 0 auto;
     margin-top: 100px;
+    outline: none;
 }
 
 #submit:hover {
     color: grey;
     cursor: pointer;
+    outline: none;
+    text-decoration: none !important;
 }
 
 #search {
